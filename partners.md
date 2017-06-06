@@ -1,7 +1,7 @@
 ---
-layout: 3-col
+layout: three-col
 title: Partenaires
-permalink: partenaires.html
+permalink: partenaires
 sections:
   - title: Partenaires technologiques
     items:
@@ -45,8 +45,6 @@ sections:
 
 ---
 
-## À propos
+## Partenaires
 
-Le projet co.shs vise à accroître les perspectives de recherche en sciences humaines et sociales et en arts et lettres par un recours au numérique.
-
-Arrimé à la plateforme de diffusion Érudit, co.shs est hébergé sur l’infrastructure nationale Calcul Canada et financé par la Fondation canadienne pour l’innovation pour une durée de trois ans (2017-2020).
+Aliquam sed erat sit amet sem auctor semper et sed risus. Suspendisse dapibus urna ut erat lacinia, quis mattis velit consectetur. Etiam dignissim velit eu urna faucibus ultricies. Morbi molestie leo id lectus facilisis, id tristique metus consectetur. Phasellus vehicula eu leo ac dapibus. Duis pretium tincidunt sem, quis placerat mauris vehicula a.

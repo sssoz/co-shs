@@ -1,7 +1,7 @@
 ---
-layout: 2-col
+layout: two-col
 title: Outils
-permalink: outils.html
+permalink: outils
 sections:
   - title: Outils d'analyse et de visualisation
     items:

@@ -1,7 +1,7 @@
 ---
-layout: 2-col
+layout: two-col
 title: Projets
-permalink: projets.html
+permalink: projets
 sections:
   - title: Projets d’exploration de données massives en SHS
     items:

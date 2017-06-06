@@ -1,5 +1,5 @@
 ---
-layout: 3-col
+layout: three-col
 title: À propos
 permalink: a-propos.html
 items:

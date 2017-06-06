@@ -1,7 +1,7 @@
 ---
-layout: 2-col
+layout: two-col
 title: Données
-permalink: donnees.html
+permalink: donnees
 sections:
   - title: Dans le dépôt – Érudit
     items:

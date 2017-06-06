@@ -1,0 +1,23 @@
+/**
+ * Projects list & project detail
+ */
+
+.projets {
+
+  li {
+
+    &:nth-child(1) a {
+      background: rgba(188, 238, 218, 1);
+    }
+
+    &:nth-child(2) a {
+      background: rgba(83, 233, 172, 1);
+    }
+
+    &:nth-child(3) a {
+      background: rgba(224, 239, 81, 1);
+    }
+
+  }
+
+}

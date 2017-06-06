@@ -1,0 +1,23 @@
+/**
+ * Tools list & tool detail
+ */
+
+.outils {
+
+  li {
+
+    &:nth-child(1) a {
+      background: rgba(255, 135, 126, 1);
+    }
+
+    &:nth-child(2) a {
+      background: rgba(244, 194, 219, 1);
+    }
+
+    &:nth-child(3) a {
+      background: rgba(236, 163, 158, 1);
+    }
+
+  }
+
+}

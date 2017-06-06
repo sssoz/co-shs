@@ -7,7 +7,7 @@
 
     {% include header.html %}
 
-    <main class="container {{ page.layout }}">
+    <main class="container">
 
       <!-- Page title & intro -->
       <div class="row">
@@ -20,14 +20,14 @@
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1">
           <!-- List content -->
-          <div class="row">
+          <div class="row {{ page.layout }} {{ page.permalink }}">
             {% if page.sections %}
 
             {% for section in page.sections %}
               <div class="col-xs-12">
                 <h3>{{ section.title }}</h3>
               </div>
-              <ul class="list-unstyled">
+              <ul class="row list-unstyled">
                 {% for item in section.items %}
                 <li class="col-md-6">
                   <a href="#">
@@ -41,7 +41,7 @@
             {% endfor %}
 
             {% elsif page.items %}
-            <ul class="list-unstyled">
+            <ul class="row list-unstyled main-list">
               {% for item in page.items %}
               <li class="col-md-6">
                 <a href="#">
