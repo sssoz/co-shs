@@ -1,72 +1,72 @@
 <!DOCTYPE html>
 <html lang="fr-ca">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <main class="container">
+  <main class="container">
 
-      <!-- Page title & intro -->
-      <div class="row">
-        <div class="col-sm-8 col-sm-offet-2 col-md-6 col-md-offset-3">
-          {{ content }}
-        </div>
+    <!-- Page title & intro -->
+    <div class="row">
+      <div class="col-sm-8 col-sm-offet-2 col-md-6 col-md-offset-3 intro">
+        {{ content }}
       </div>
-      <hr>
+    </div>
 
-      <div class="row">
-        <div class="col-sm-10 col-sm-offset-1">
-          <!-- List content -->
-          <div class="row {{ page.layout }} {{ page.permalink }}">
-            {% if page.sections %}
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <!-- List content -->
+        <div class="row {{ page.layout }} {{ page.permalink }}">
+          {% if page.sections %}
 
-            {% for section in page.sections %}
-              <div class="col-xs-12">
-                <h3>{{ section.title }}</h3>
-              </div>
-              <ul class="row list-unstyled">
-                {% for item in section.items %}
-                <li class="col-md-4">
-                  <div>
-                    {% if item.img %}<img src="img/{{ item.img }}"/>{% endif %}
-                    <h4>{{ item.title }}</h4>
-                    <p>{{ item.content }}</p>
-                    {% if item.e-mail %}→ <a href="mailto:{{ item.e-mail }}">{{ item.e-mail }}</a>{% endif %}
-                    {% if item.site %}→ <a href="{{ item.site }}" target="_blank">{{ item.site }}</a>{% endif %}
-                  </div>
-                </li>
-                {% endfor %}
-              </ul>
-
-            {% endfor %}
-
-            {% elsif page.items %}
-            <ul class="row list-unstyled main-list">
-              {% for item in page.items %}
-              <li class="col-md-4">
-                <div>
-                  {% if item.img %}<img src="img/{{ item.img }}"/>{% endif %}
-                  <h3>{{ item.title }}</h3>
-                  <p>{{ item.content }}</p>
-                  {% if item.e-mail %}→ <a href="mailto:{{ item.e-mail }}">{{ item.e-mail }}</a>{% endif %}
-                  {% if item.site %}→ <a href="{{ item.site }}" target="_blank">{{ item.site }}</a>{% endif %}
-                </div>
-              </li>
-              {% endfor %}
-            </ul>
-
-            {% endif %}
+          {% for section in page.sections %}
+          <div class="col-xs-12">
+            <hr>
+            <h3>{{ section.title }}</h3>
           </div>
+          <ul class="row list-unstyled">
+            {% for item in section.items %}
+            <li class="col-md-4">
+              <div>
+                {% if item.img %}<img src="img/{{ item.img }}"/>{% endif %}
+                <h4>{{ item.title }}</h4>
+                <p>{{ item.content }}</p>
+                {% if item.e-mail %}→ <a href="mailto:{{ item.e-mail }}">{{ item.e-mail }}</a>{% endif %}
+                {% if item.site %}→ <a href="{{ item.site }}" target="_blank">{{ item.site }}</a>{% endif %}
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endfor %}
+
+          {% elsif page.items %}
+          <hr>
+          <ul class="row list-unstyled main-list">
+            {% for item in page.items %}
+            <li class="col-md-4">
+              <div>
+                {% if item.img %}<img src="img/{{ item.img }}"/>{% endif %}
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.content }}</p>
+                {% if item.e-mail %}→ <a href="mailto:{{ item.e-mail }}">{{ item.e-mail }}</a>{% endif %}
+                {% if item.site %}→ <a href="{{ item.site }}" target="_blank">{{ item.site }}</a>{% endif %}
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+
+          {% endif %}
         </div>
       </div>
+    </div>
 
-    </main>
+  </main>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-  </body>
+</body>
 
 </html>

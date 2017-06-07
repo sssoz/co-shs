@@ -9,7 +9,7 @@
 
     <main class="container">
       <div class="row">
-        <div class="col-sm-8 col-sm-offet-2 col-md-6 col-md-offset-3">
+        <div class="col-sm-8 col-sm-offet-2 col-md-6 col-md-offset-3 intro">
           {{ content }}
         </div>
       </div>
@@ -17,81 +17,89 @@
 
       <!-- News -->
       <section>
-        <div class="row">
+        <div class="{{ page.layout }}">
 
           <div class="col-xs-12">
             <h2>Nouvelles</h2>
           </div>
 
           <!-- Latest news item -->
-          <div class="col-sm-6">
-            <figure>
-              <a href="#"><img src=""></a>
-              <figcaption>
-                <small>© Crédit photo</small>
-              </figcaption>
-            </figure>
+          <div class="row">
+
+            <div class="col-sm-6">
+              <figure>
+                <a href=""><img src="img/graph1.png"></a>
+                <figcaption>
+                  <small>© Crédit photo</small>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-sm-6">
+              <span>Communiqué</span>
+              <h3>La fondation canadienne pour l'innovation renouvelle son soutien à Érudit</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, urna eget facilisis maximus, lacus erat sollicitudin arcu, nec congue justo magna eu purus. Nullam volutpat, dui id placerat ullamcorper, eros neque varius nisi, vitae hendrerit odio leo vel elit.
+              </p>
+              <span><small>2016/01/16</small></span>
+            </div>
+
           </div>
 
-          <!-- Following three news items -->
-          <div class="col-sm-6">
-            <span>Communiqué</span>
-            <h3>La fondation canadienne pour l'innovation renouvelle son soutien à Érudit</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, urna eget facilisis maximus, lacus erat sollicitudin arcu, nec congue justo magna eu purus. Nullam volutpat, dui id placerat ullamcorper, eros neque varius nisi, vitae hendrerit odio leo vel elit.
-            </p>
-            <span>2016/01/16</span>
-          </div>
+          <div class="row">
 
-          <div class="col-sm-4">
-            <span>Communiqué</span>
-            <figure>
-              <a href="#"><img src=""></a>
-              <figcaption>
-                <small>© Crédit photo</small>
-              </figcaption>
-            </figure>
-            <h3>La fondation canadienne pour l'innovation renouvelle son soutien à Érudit</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, urna eget facilisis maximus, lacus erat sollicitudin arcu, nec congue justo magna eu purus. Nullam volutpat, dui id placerat ullamcorper, eros neque varius nisi, vitae hendrerit odio leo vel elit.
-            </p>
-            <span>2016/01/16</span>
-          </div>
+            <!-- Following three news items -->
+            <div class="col-sm-4">
+              <span>Communiqué</span>
+              <figure>
+                <a href="#"><img src="img/graph2.png"></a>
+                <figcaption>
+                  <small>© Crédit photo</small>
+                </figcaption>
+              </figure>
+              <h3>La fondation canadienne pour l'innovation renouvelle son soutien à Érudit</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, urna eget facilisis maximus, lacus erat sollicitudin arcu, nec congue justo magna eu purus. Nullam volutpat, dui id placerat ullamcorper, eros neque varius nisi, vitae hendrerit odio leo vel elit.
+              </p>
+              <span><small>2016/01/16</small></span>
+            </div>
 
-          <div class="col-sm-4">
-            <span>Actualités</span>
-            <figure>
-              <a href="#"><img src=""></a>
-              <figcaption>
-                <small>© Crédit photo</small>
-              </figcaption>
-            </figure>
-            <h3>Succès grandissant pour le corpus d'Érudit aux États-Unis</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, urna eget facilisis maximus, lacus erat sollicitudin arcu, nec congue justo magna eu purus. Nullam volutpat, dui id placerat ullamcorper, eros neque varius nisi, vitae hendrerit odio leo vel elit.
-            </p>
-            <span>2016/01/16</span>
-          </div>
+            <div class="col-sm-4">
+              <span>Actualités</span>
+              <figure>
+                <a href="#"><img src="img/graph3.png"></a>
+                <figcaption>
+                  <small>© Crédit photo</small>
+                </figcaption>
+              </figure>
+              <h3>Succès grandissant pour le corpus d'Érudit aux États-Unis</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, urna eget facilisis maximus, lacus erat sollicitudin arcu, nec congue justo magna eu purus. Nullam volutpat, dui id placerat ullamcorper, eros neque varius nisi, vitae hendrerit odio leo vel elit.
+              </p>
+              <span><small>2016/01/16</small></span>
+            </div>
 
-          <div class="col-sm-4">
-            <span>Actualités</span>
-            <figure>
-              <a href="#"><img src=""></a>
-              <figcaption>
-                <small>© Crédit photo</small>
-              </figcaption>
-            </figure>
-            <h3>Investissement de 4,3M$ pour la création d'une Cyberinfrastructure canadienne</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, urna eget facilisis maximus, lacus erat sollicitudin arcu, nec congue justo magna eu purus. Nullam volutpat, dui id placerat ullamcorper, eros neque varius nisi, vitae hendrerit odio leo vel elit.
-            </p>
-            <span>2016/01/16</span>
+            <div class="col-sm-4">
+              <span>Actualités</span>
+              <figure>
+                <a href="#"><img src="img/graph4.png"></a>
+                <figcaption>
+                  <small>© Crédit photo</small>
+                </figcaption>
+              </figure>
+              <h3>Investissement de 4,3M$ pour la création d'une Cyberinfrastructure canadienne</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, urna eget facilisis maximus, lacus erat sollicitudin arcu, nec congue justo magna eu purus. Nullam volutpat, dui id placerat ullamcorper, eros neque varius nisi, vitae hendrerit odio leo vel elit.
+              </p>
+              <span><small>2016/01/16</small></span>
+            </div>
+
           </div>
 
         </div>
 
         <div>
-          <a class="btn btn-secondary btn-lg">Voir toutes les nouvelles</a>
+          <a class="btn">Voir toutes les nouvelles</a>
         </div>
 
       </section>
