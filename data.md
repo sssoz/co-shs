@@ -3,21 +3,23 @@ layout: two-col
 title: Données
 permalink: donnees
 sections:
-  - title: Dans le dépôt – Érudit
+  - title: Dans le dépôt
     items:
       - title: Revues savantes
         content: Proin et maximus est, vitae dignissim magna. Nunc nec urna id purus elementum gravida ac non tellus. Pellentesque ac auctor sapien. Duis consequat sodales lacinia. Sed at sollicitudin dolor, id lacinia metus.
+        category: Érudit
 
       - title: Revues culturelles
         content: Proin et maximus est, vitae dignissim magna. Nunc nec urna id purus elementum gravida ac non tellus. Pellentesque ac auctor sapien. Duis consequat sodales lacinia. Sed at sollicitudin dolor, id lacinia metus.
-
-  - title: Dans le dépôt – BAnQ
-    items:
+        category: Érudit
+        
       - title: Revues patrimoniales numérisé
         content: Proin et maximus est, vitae dignissim magna. Nunc nec urna id purus elementum gravida ac non tellus. Pellentesque ac auctor sapien. Duis consequat sodales lacinia. Sed at sollicitudin dolor, id lacinia metus.
+        category: BAnQ
 
       - title: Journaux patrimoniaux numérisés
         content: Proin et maximus est, vitae dignissim magna. Nunc nec urna id purus elementum gravida ac non tellus. Pellentesque ac auctor sapien. Duis consequat sodales lacinia. Sed at sollicitudin dolor, id lacinia metus.
+        category: BAnQ
 
   - title: Sur demande
     items:

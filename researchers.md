@@ -6,32 +6,32 @@ items:
   - title: Alperin, Juan Pablo
     content: SFU/PKP <br>Édition, libre accès, mesures d’impact alternatives
     e-mail: juan@alperin.ca
-    img: portraits/1.png
+    img: chercheurs/alperin.png
 
   - title: Audet, René
     content: U. Laval <br>Littérature contemporaine, culture numérique
     e-mail: juan@alperin.ca
-    img: portraits/1.png
+    img: chercheurs/audet.png
 
   - title: Collins, Christopher
     content: Vialab/UOIT <br>Visualisation linguistique
     e-mail: juan@alperin.ca
-    img: portraits/1.png
+    img: chercheurs/lariviere.png
 
   - title: Forest, Dominic
     content: UdeM <br>Fouille de textes, visualisation de l’information, humanités numériques
     e-mail: juan@alperin.ca
-    img: portraits/1.png
+    img: chercheurs/maxwell.png
 
   - title: Gervais, Bertrand
     content: Nt2/UQAM <br>Littérature contemporaine, culture numérique
     e-mail: juan@alperin.ca
-    img: portraits/1.png
+    img: chercheurs/sugimoto.png
 
   - title: Gingras, Yves
     content: OST/UQAM <br>Sociologie des sciences, bibliométrie
     e-mail: juan@alperin.ca
-    img: portraits/1.png
+    img: chercheurs/gingras.png
 
 ---
 
