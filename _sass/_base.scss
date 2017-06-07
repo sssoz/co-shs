@@ -1,57 +1,49 @@
 /**
- * Basic styling
- */
+* Basic / general styles
+*/
 
 body {
-    font: Helvetica;
-    color: #000;
-    background-color: #fff;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
-    word-wrap: break-word;
-    -webkit-font-smoothing: antialiased;
+  color: #000;
+  background-color: #fff;
 }
 
-
-/**
- * Images
- */
+hr {
+  border-color: grey;
+}
 
 img {
-    max-width: 100%;
-    vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
-
-
-/**
- * Figures
- */
 
 figure > img {
-    display: block;
+  display: block;
 }
 
-/**
- * Links
- */
+p {
+  font-size: 16px;
+}
+
+small {
+  font-size: 14px;
+}
 
 a {
   color: #000;
+
+  &:hover, &:focus, &:active, &:active:focus {
+    color: #000;
+    text-decoration: none;
+  }
+
 }
 
-/**
- * Clearfix
- */
 %clearfix {
 
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 }

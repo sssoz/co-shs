@@ -7,15 +7,23 @@
   li {
 
     &:nth-child(1) a {
-      background: rgba(255, 135, 126, 1);
+      background: #FF877E;
     }
 
     &:nth-child(2) a {
-      background: rgba(244, 194, 219, 1);
+      background: #F4C2DB;
     }
 
     &:nth-child(3) a {
-      background: rgba(236, 163, 158, 1);
+      background: #ECA39E;
+    }
+
+    &:nth-child(4) a {
+      background: #FC94C7;
+    }
+
+    &:nth-child(5) a {
+      background: #FF5C74;
     }
 
   }

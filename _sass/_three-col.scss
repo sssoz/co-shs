@@ -7,6 +7,10 @@
   ul {
     margin-bottom: 30px;
 
+    h4 {
+      text-transform: uppercase;
+    }
+
     li {
 
       &:nth-child(3n+1) {
@@ -17,7 +21,39 @@
         display: block;
         margin: 15px 0;
         padding: 20px 25px;
-        height: 550px;
+      }
+
+      p, li, a {
+        font-size: 16px;
+      }
+
+      a {
+        color: #000;
+        display: inline-block;
+        -webkit-transition: color 0.25s;
+        -o-transition: color 0.25s;
+        transition: color 0.25s;
+
+        &:after {
+          content: '';
+          display: block;
+          width: 0%;
+          height: 1px;
+          width: 0%;
+          border-bottom: 1px solid #000;
+        }
+
+        &:hover, &:active, &:focus {
+
+          &:after {
+            width: 100%;
+            -webkit-transition: width 0.4s;
+            -o-transition: width 0.4s;
+            transition: width 0.4s;
+          }
+
+        }
+
       }
 
     }
