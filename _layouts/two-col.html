@@ -11,7 +11,7 @@
 
     <!-- Page title & intro -->
     <div class="row">
-      <div class="col-sm-8 col-sm-offet-2 col-md-6 col-md-offset-3 intro">
+      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 intro">
         {{ content }}
       </div>
     </div>
@@ -30,7 +30,7 @@
           <ul class="row list-unstyled">
             {% for item in section.items %}
             <li class="col-md-6">
-              <a href="#">
+              <a href="detail">
                 {% if item.category %}<span>{{ item.category }}</span>{% endif %}
                 <h4>{{ item.title }}</h4>
                 <p>{{ item.content }}</p>
@@ -45,7 +45,7 @@
           <ul class="row list-unstyled main-list">
             {% for item in page.items %}
             <li class="col-md-6">
-              <a href="#">
+              <a href="detail">
                 {% if item.category %}<span>{{ item.category }}</span>{% endif %}
                 <h3>{{ item.title }}</h3>
                 <p>{{ item.content }}</p>

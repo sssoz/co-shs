@@ -20,9 +20,15 @@ figure > img {
   display: block;
 }
 
-p {
+p, ol, ul {
   font-size: 16px;
+  margin-bottom: 20px;
 }
+
+blockquote {
+  border-color: #000;
+}
+
 
 small {
   font-size: 14px;

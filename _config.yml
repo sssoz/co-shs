@@ -30,4 +30,4 @@ exclude:
 permalink:
   pretty
 sass:
-    style: :compressed
+    style: :compact
