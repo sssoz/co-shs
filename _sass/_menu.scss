@@ -23,7 +23,7 @@ nav.navbar {
       font-size: 16px;
       letter-spacing: 0.035em;
       line-height: 1;
-      padding: 20px 0;
+      padding: 35px 0;
 
       &:last-of-type a {
         color: grey;
@@ -40,6 +40,17 @@ nav.navbar {
         }
       }
 
+    }
+
+  }
+
+  .navbar-toggle {
+    border: none;
+    float: none;
+    margin: 0 auto;
+
+    h2 {
+      font-size: 16px;
     }
 
   }
