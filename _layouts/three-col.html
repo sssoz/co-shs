@@ -19,14 +19,12 @@
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
         <!-- List content -->
-        <div class="row {{ page.layout }} {{ page.permalink }}">
+        <div class="{{ page.layout }} {{ page.permalink }}">
           {% if page.sections %}
 
           {% for section in page.sections %}
-          <div class="col-xs-12">
-            <hr>
-            <h3>{{ section.title }}</h3>
-          </div>
+          <hr>
+          <h3>{{ section.title }}</h3>
           <ul class="row list-unstyled">
             {% for item in section.items %}
             <li class="col-md-4">
